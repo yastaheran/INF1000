@@ -1,0 +1,14 @@
+- Savner en litt mer utfyllende forklaring av kompilerings- og kjørefeil, men det du har skrevet er riktig.
+- I Metoder har du kun kalt treGanger metoden 2 ganger.
+- Det ser ut til at du har misforstått EnkelKalkulator oppgaven litt. Meningen var at du skulle lese inn to tall fra bruker, 
+og deretter sende disse som parameter til metodene som gjør utregningene og skriver ut. Du har ikke brukt metoder med parametre, 
+men tatt imot tall fra bruker i alle metodene. Dette vil dessverre ikke gi poeng, da hovedformålet med oppgaven var å bruke 
+metoder med parameter. 
+
+Bortsett fra EnkelKalkulator oppgaven har du fått til alle kode oppgavene. Selvom jeg savnet litt bedre forklaring på kompilerings- 
+og kjørefeil som nevnt over, så er både Kodeflyt og Feilmeldinger gjort bra, og det ser ut til at du har forstått disse delene av 
+pensum godt. Det eneste er at du kanskje burde ta en ekstra titt på metoder med parameter så du også får øvd deg litt på det :) 
+MinOppgave2 var fin, og koden fungerer som den skal. For å gjøre den enda litt bedre kunne du lagt det inn i en løkke, slik at 
+programmet ikke slutter etter å ha spurt to ganger (men dette er kun småpirk). Bra jobba :)
+
+ 4/5 poeng

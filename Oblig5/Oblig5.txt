@@ -1,0 +1,8 @@
+Hva er innkapsling? Hvorfor er det nyttig?
+Innkapsling er en teknikk som hindrer direkte tilgang til tilstanden til en objekt direkte fra objekter av andre klasser. Dette er nyttig fordi det er viktig å sikre at tilstanden til alle objekter er gyldige.
+
+Hva er det grensesnittet til en klasse? Hvordan skiller det seg fra implementasjonen av en klasse?
+Grensesnittet virker som en mal for andre klasser, og implementasjonen er en detaljert konstruksjon.
+
+Hva er en instansmetode og hvordan skille den seg fra en statisk metode?
+Instansmetode er de som for en hver forekomst av en klasse har sin egen kopi, i motsetning til statisk metode hvor det er kun ett eksemplar som blir brukt av alle forekomster i klassen. 

@@ -1,0 +1,7 @@
+2. 4 Feilmeldinger
+a)Kjørefeil – er en feilmelding man kan få når man forsøker å kjøre programmet.s
+   Kompileringsfeil – er en feilmelding man kan få når man forsøker å kompilere programmet.
+b) 1. Først ville jeg ha rettet på stavefeilen, deretter se etter om jeg mangler noen tegn (””,{}, ; osv).
+    2. Den andre feilmeldingen er en følgefeil av at class er skrevet med stor forbokstav.
+    3.  Det står en ^ der hvor det mangler noe for at koden skal virke, og her mangler det en ;.
+    4. Det står en ^ der hvor feilen forekommer, og her er feilen ”system” som skal være ”System”, med stor s.

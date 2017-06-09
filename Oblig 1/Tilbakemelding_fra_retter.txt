@@ -1,0 +1,6 @@
+- Unngå bruk av æøå i koden
+- Du har glemt linjeskift et par steder, noe som gjør utskriften litt uoversiktlig
+- Pass på at du bruker oppgavenavnet som står i oppgaven (kun feil på siste oppgave)
+- Kjempe bra, her var ikke mye å pirke på. Koden er ryddig og fin, og alle oppgavene fungerer akkurat som de skal. Du har løst oppgave 1.5 veldig fint også, bra at du brukte det som var gjennomgått uka som var. Bra jobba!
+
+5/5 poeng.

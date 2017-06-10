@@ -14,9 +14,7 @@ public class NegativeTall {
 //Oppgave B
 		int i = 0;
 		while(arrayTall.length < 0) {
-			antallNeg =1;
-			sumAntall += antallNeg;
-			i ++;
+			arrayTall[i] = i;
 		}
 		System.out.println("det er " + sumAntall + " negativetall i arrayen");
 //Oppgave C

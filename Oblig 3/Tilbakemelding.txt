@@ -1,0 +1,34 @@
+- SumTall fungerer akkurat som den skal, men det er litt enklere å skrive while (tallInn != 0). Da vil løkken avslutte så fort tallet 
+  er satt til 0.
+- I NegativeTall b) fungerer det ikke fordi du har lagd while-løkken litt feil. Du må først lage en teller/indeks variabel
+  (la oss kalle den i her) som du setter til 0, deretter ha while(arrayTall.length < i), og så må man huske å plusse på i helt 
+  til slutt i while-løkken. Dersom man glemmer å plusse på i vil løkken gå evig.
+- I NegativeTall c) har du rett og slett komplisert det for mye for deg selv. Her er en løsning som fungerer:
+  for (int i = 0; i < arrayTall.length; i++) {
+    if (arrayTall[i] < 0) {
+      arrayTall[i] = i;
+    }
+  }
+  Denne løkken vil gå gjennom alle plasser i arrayet, fra 0 til og med arrayTall.length - 1. Deretter sjekker den om tallet på den 
+  gitte plassen er mindre enn 0, hvis ja så setter den verdien på denne plassen til å være i, som tilsvarer indeks-plassen til tallet 
+  i arrayet. Jeg skjønner godt at du slet med denne oppgaven med løsningen du har valgt, det er rett og slett altfor komplisert. Med 3 
+  løkker inni hverandre som du har her (en while-løkke og to for-løkker) blir det veldig komplisert.
+- I ForLokker c) er det en feil. Du har ikke satt sum variabelen = 0 mellom de to forløkkene, så du fortsetter å plusse på oddetallene 
+  til variabelen som du allerede har lagret summen av partallene i. Det er viktig å teste programmet og se om resultatet er logisk for å 
+  være sikker på at det er riktig :)
+- I FirstArray oppgaven fungerer all koden, og det aller meste er riktig (bortsett fra i b) hvor du har satt inn feil verdier, du skulle 
+  sette inn verdiene 0, 1, 2, 3). Bare et tips, i oppgave d) kunne du med fordel brukt en for-løkke til å sette inn navnene i arrayet :)
+- Jeg får ikke kompilert MinOppgave3 pga bruk av 'ø' i koden, jeg fikk fikset det opp, men unngå all bruk av 'æøå' i koden (dette er 
+  nevnt tidligere). Oppgaven er veldig bra lagd, og den fungerer som den skal. Har du fått hjelp til å løse denne? Søkingen som er gjort 
+  her er ganske avansert. Det er helt greit å få hjelp til oppgaver hvis det er tilfelle, men viktig å forstå all kode selv også, hvis 
+  ikke hjelper det lite i det lange løp (det kan absolutt hende at du har løst denne helt selv, men med tanke på at den var ganske 
+  avansert tenker jeg at du kanskje har fått litt hjelp).
+
+Nå ble det litt mange punkter over her, men jeg ønsket å prøve å forklare mulige måter å løse noe av det du slet med på, så du kanskje 
+forstår at løsningene ikke alltid er så kompliserte, selvom det kan være veldig vanskelig å finne de til tider :) Det er veldig mye i 
+denne oppgaven som er riktig, og du har forstått mye. Løkker og array kan være litt vanskelig å forstå konseptuelt, men se på eksempler 
+og øv deg på å programmere oppgaver så forstår du det enda bedre snart :) Du har en veldig ryddig og fin kode, noe som er viktig. 
+Bra at du også kommenterer litt. Jeg ser at du er flink, så de tingene du sliter litt med nå finner du nok ut av ganske fort. Du har 
+gjort en god jobb :)
+
+3/5 poeng

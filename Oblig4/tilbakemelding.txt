@@ -1,0 +1,19 @@
+- I Innlesing skriver ikke programmet ditt ut antall ganger som ordet bruker taster inn forekommer i teksten. Jeg tror problemet er at 
+  du har lagt utskriftssetningen inne i while-løkken, ikke utenfor.
+- I Kalkulator skriver du ikke ut svaret med vanlig divisjon, hvorfor ikke? Metoden fungerer akkurat som den skal. Du har også lagt 
+  inn Scanner objekt i alle metodene. Dersom du legger til ting tidlig i koden og senere finner ut at dette er overflødig, er det like 
+  greit å slette det :) (RETTET)
+- I Temperatur har du ikke regnet ut gjennomsnittet, så det blir dessverre ikke poeng på denne oppgaven. Likevel, innlesingen din til 
+  array fra fil ser riktig ut (selvom jeg sterkt anbefaler å lese inn som String og gjøre om til int når man leser fra fil, hvis ikke 
+  blir det fort noe feil). For å få finne gjennomsnittet av dette er det bare å lage en 'sum' variabel, gå gjennom arrayet, og plusse 
+  hver verdi i arrayet til denne verdien (ved hjelp av en løkke)
+- MinOppgave4 fungerer bra, og det er flott at du leser inn fra fil. Skulle kanskje ønske du hadde gjort littegrann mer ut av den, men 
+  forstår godt at det ikke alltid er så lett å finne å være kreativ :)
+
+Alt i alt har du forstått ganske mye av innleveringen, selvom ikke absolutt alt er på plass. Jeg skjønner at TicTacToe kan virke ganske 
+utfordrende og da er det litt vanskelig å vite hvor man skal begynne. Det jeg anbefaler (sterkt!) når man står ovenfor oppgaver som man 
+synes virker vanskelige å programmere, er å sette seg ned med penn og papir først og prøve å tenke seg ut hvordan man ønsker å gjøre det. 
+Prøv å se for deg i dagligtale hvordan du ville gått frem, og deretter starte å programmere. Har man en plan og en idé om hva man ønsker 
+å gjøre, er det ofte lettere å overføre dette til kode. Kalkulator og Innlesing fungerer ganske bra (bortsett fra de tingene jeg har 
+nevnt over), og du har hvertfall god kontroll på filinnlesing, så det er kjempe bra! :) Det blir poeng for Kalkulator, Innlesing og 
+MinOppgave4 på denne leveringen :)

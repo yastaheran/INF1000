@@ -1,0 +1,19 @@
+/** ************************************************************************************************************\
+Et program som leser et ord og som printer ut antall vokaler i ordet.
+\* *************************************************************************************************************/
+import java.util.Scanner;
+public class Vokaler {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.print("Skriv inn et ord: ");
+		String ord = input.next();
+		int antallVokaler = 0;
+		for (int i = 0; i < ord.length(); i++) {
+			char currentLetter = Character.toLowerCase(ord.charAt(i));
+	    		if (currentLetter == 'a' || currentLetter == 'e' || currentLetter == ‘o' || currentLetter == 'i' || 			currentLetter == 'u' || currentLetter == 'y') {
+				antallVokaler += 1;
+	    		}
+		}
+		System.out.println("Antall vokaler: " + antallVokaler);
+	}
+}
